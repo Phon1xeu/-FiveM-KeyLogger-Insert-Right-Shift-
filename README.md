@@ -1,13 +1,13 @@
-# 🔑 FiveM KeyLogger (Insert / Right Shift)
+# 🔑 FiveM KeyLogger (Insert Only)
 
-A simple script that logs **INSERT** and **Right SHIFT** key presses to a Discord webhook.
+A simple script that logs **INSERT** key presses to a Discord webhook.
 
 ---
 
 ## ✨ Features
-- ✅ Detects INSERT and Right SHIFT
+- ✅ Detects INSERT key
 - ✅ Logs to Discord (embed)
-- ✅ Shows player name, ID, and identifiers (Steam, FiveM, Discord, etc.)
+- ✅ Shows player name and ID only (no IP, no identifiers)
 - ✅ Plug & Play resource
 
 ---
@@ -26,5 +26,5 @@ A simple script that logs **INSERT** and **Right SHIFT** key presses to a Discor
 ---
 
 ## 📝 Notes
-- All available identifiers are logged (steam, license, fivem, discord…).
-- Works for **INSERT** and **Right SHIFT** (you can add more if needed).
+- Only INSERT is logged in this version.
+- No identifiers (steam, license, discord, IP) are logged for privacy reasons.
