@@ -1,8 +1,7 @@
 local webhookEvent = 'keylogger:logKey'
 
--- Key codes
-local KEY_INSERT = 121 
-local KEY_RSHIFT = 21  
+
+local KEY_INSERT = 121 -- INSERT
 
 Citizen.CreateThread(function()
     while true do
@@ -10,10 +9,6 @@ Citizen.CreateThread(function()
 
         if IsControlJustReleased(0, KEY_INSERT) then
             TriggerServerEvent(webhookEvent, "INSERT")
-        end
-
-        if IsControlJustReleased(0, KEY_RSHIFT) then
-            TriggerServerEvent(webhookEvent, "Right SHIFT")
         end
     end
 end)
